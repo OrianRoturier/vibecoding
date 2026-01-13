@@ -1,0 +1,9 @@
+projectName: My BMAD Project
+track: BMad Method
+phase: Implementation
+status: initialized
+createdAt: '2026-01-13T10:49:13.436Z'
+documents:
+  - PRD
+  - Architecture
+lastUpdated: '2026-01-13T10:51:03.977Z'

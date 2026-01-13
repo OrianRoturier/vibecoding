@@ -1,0 +1,25 @@
+name: "workflow-init"
+description: "Initialize BMad workflow for a new project"
+phases:
+  - name: "Analysis"
+    description: "Brainstorming and research phase"
+    optional: true
+  - name: "Planning"
+    description: "Create requirements and planning documents"
+    required: true
+  - name: "Solutioning"
+    description: "Design architecture and technical solutions"
+    optional: true
+  - name: "Implementation"
+    description: "Build the solution story by story"
+    required: true
+tracks:
+  - name: "Quick Flow"
+    description: "For simple projects with clear scope"
+    documents: ["tech-spec"]
+  - name: "BMad Method"
+    description: "For complex projects requiring full planning"
+    documents: ["PRD", "Architecture", "UX"]
+  - name: "Enterprise"
+    description: "For large-scale projects with compliance needs"
+    documents: ["PRD", "Architecture", "Security", "DevOps"]

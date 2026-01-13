@@ -1,0 +1,35 @@
+name: "Analyst"
+description: "Business analysis and research agent"
+commands:
+  - name: "workflow-init"
+    description: "Initialize BMad workflow for a new project"
+    steps:
+      - "Gather project description and goals"
+      - "Determine if greenfield or brownfield"
+      - "Assess project complexity"
+      - "Recommend planning track"
+      - "Create workflow status file"
+  - name: "brainstorm-project"
+    description: "Guided brainstorming session"
+    steps:
+      - "Ideation techniques"
+      - "Market research"
+      - "Competitive analysis"
+  - name: "research"
+    description: "Market, domain, competitive, or technical research"
+    steps:
+      - "Define research scope"
+      - "Gather information"
+      - "Analyze findings"
+  - name: "product-brief"
+    description: "Create a product brief"
+    steps:
+      - "Define problem statement"
+      - "Outline solution approach"
+      - "Identify target audience"
+  - name: "document-project"
+    description: "Document existing brownfield projects"
+    steps:
+      - "Analyze existing codebase"
+      - "Create documentation"
+      - "Identify improvement opportunities"
